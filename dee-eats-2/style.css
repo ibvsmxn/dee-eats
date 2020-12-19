@@ -1,0 +1,93 @@
+body {
+  background-color: grey;
+  background-image: url("jesus-santos-Fc1Cwte6h1c-unsplash.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Knewave", cursive;
+}
+@keyframes fadeIn {
+  from {
+    background: black;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+  to {
+    background: rgba(47, 47, 47, 0.75);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+}
+body .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+body .header .header-content {
+  padding: 12.5px 25px;
+}
+body .header a {
+  color: white;
+  text-decoration: none;
+}
+body .header a:hover {
+  color: white;
+  text-decoration: none;
+}
+body .header span.logo {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+body .header span.logo i {
+  margin-right: 10px;
+  font-size: 1.75em;
+}
+body .header span.ig {
+  padding: 20px;
+}
+body .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: black;
+  animation: fadeIn 3s forwards;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+body .main img {
+  display: block;
+  filter: brightness(25) drop-shadow(0px 0px 5px black);
+  width: 100%;
+  max-width: 450px;
+  margin: 75px auto;
+}
+body .main h2 {
+  font-size: 4em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 0px 30px black;
+}
+body .main h3 {
+  font-size: 1.75em;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 75%;
+  margin: 30px auto;
+  line-height: 1.5em;
+}
+body .main h3 span.emphasis {
+  color: indianred;
+  font-weight: bold;
+  border-bottom: 3px solid indianred;
+}
+
+/*# sourceMappingURL=style.css.map */
